@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import '~normalize.css';
+
+body{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background: #C0DBD9;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+a{
+  text-decoration: none;
+}

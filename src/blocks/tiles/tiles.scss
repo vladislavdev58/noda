@@ -1,0 +1,27 @@
+.tiles{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr) 160px);
+  grid-gap: 15px;
+  grid-auto-rows: 198px;
+  width: 100%;
+  background: #B3F95A;
+
+  &__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #8AD191;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 62px;
+    color: #FFFFFF;
+
+
+    &:nth-child(2) {
+      grid-column: span 2;
+    }
+    &:nth-child(4) {
+      grid-column: span 3;
+    }
+  }
+}

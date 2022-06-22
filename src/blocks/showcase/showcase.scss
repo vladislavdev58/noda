@@ -1,0 +1,13 @@
+.showcase{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-auto-rows: 199px;
+  grid-gap: 30px;
+  background: #88B5BF;
+  padding: 30px;
+
+
+  &__item{
+    background: #0D89B0;
+  }
+}
